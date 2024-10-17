@@ -10,7 +10,7 @@ In order to build the docker image with the ig1 provider you need to specify the
 
 ```bash
 VERSION=0.10.0-beta2
-git checkout v${VERSION}
+git checkout dify-v${VERSION}
 docker build --build-arg dify_image=langgenius/dify-api:${VERSION} -t dify-api:${VERSION}-ig1 .
 ```
 
